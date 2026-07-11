@@ -46,7 +46,7 @@ struct HomeView: View {
                 }
                 .padding()
             }
-            .navigationTitle("YusefMobile")
+            .navigationTitle("AshteMobile")
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     HStack {
