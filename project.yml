@@ -1,0 +1,27 @@
+name: snapdeeb
+options:
+  bundleIdPrefix: com.snapdeeb
+targets:
+  snapdeeb:
+    type: application
+    platform: iOS
+    deploymentTarget: "15.0"
+    sources:
+      - snapdeebApp.swift
+      - ContentView.swift
+      - HomeView.swift
+      - AppsView.swift
+      - SettingsView.swift
+    info:
+      path: Info.plist
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.snapdeeb.vsaver
+        MARKETING_VERSION: "5.1"
+        CURRENT_PROJECT_VERSION: "1"
+        SWIFT_VERSION: "5.5"
+        ENABLE_BITCODE: NO
+        CODE_SIGNING_ALLOWED: NO
+        CODE_SIGNING_REQUIRED: NO
+        CODE_SIGN_IDENTITY: ""
+        AD_HOC_CODE_SIGNING_ALLOWED: YES
