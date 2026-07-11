@@ -8,7 +8,7 @@ struct HomeView: View {
                     
                     // Welcome Banner
                     HStack {
-                        Text("✨ Welcome to Ashte").font(.subheadline).fontWeight(.medium)
+                        Text("✨ Welcome to Yusef").font(.subheadline).fontWeight(.medium)
                         Spacer()
                     }
                     .padding().background(Color.white).cornerRadius(20).shadow(color: .black.opacity(0.05), radius: 5)
@@ -46,7 +46,7 @@ struct HomeView: View {
                 }
                 .padding()
             }
-            .navigationTitle("AshteMobile")
+            .navigationTitle("YusefMobile")
             .toolbar {
                 ToolbarItem(placement: .navigationBarTrailing) {
                     HStack {
