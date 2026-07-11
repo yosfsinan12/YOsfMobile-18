@@ -10,7 +10,7 @@ struct AppsView: View {
                     
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack(spacing: 15) {
-                            FeaturedAppCard(title: "YusefMobile", color: .purple)
+                            FeaturedAppCard(title: "AshteMobile", color: .purple)
                             FeaturedAppCard(title: "Esign Pro", color: .blue)
                         }
                         .padding(.horizontal)
@@ -28,7 +28,7 @@ struct AppsView: View {
                     // App List
                     Text("All Apps").font(.title3).fontWeight(.bold).padding(.horizontal)
                     VStack(spacing: 15) {
-                        AppListItem(name: "YusefMobile", version: "v2.6.0", size: "17.46 MB")
+                        AppListItem(name: "AshteMobile", version: "v2.6.0", size: "17.46 MB")
                         AppListItem(name: "Esign", version: "v5.0.2", size: "9.05 MB")
                         AppListItem(name: "Ksign", version: "v1.5", size: "21.3 MB")
                     }
